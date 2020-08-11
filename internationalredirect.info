@@ -1,5 +1,5 @@
-name = redirect
-description = Redirect Sub-theme
+name = International Redirect
+description = Internatinal Sites Redirect Sub-theme
 core = 7.x
 base theme = aesbs337
 
@@ -33,4 +33,4 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
-stylesheets[all][] = css/redirect-style.css
+stylesheets[all][] = css/int-redirect-style.css
