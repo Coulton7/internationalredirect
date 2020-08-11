@@ -1,0 +1,169 @@
+body.navbar-is-fixed-top.navbar-administration{
+  padding-top: 0;
+}
+
+body.navbar-is-fixed-top{
+  padding-top: 0;
+}
+
+#hoyre-kol h1 a[href]:after {
+  display: none;
+}
+
+a[href]:after{
+  display: none;
+}
+
+.logo.navbar-btn {
+  display: none;
+}
+
+#navbar {
+  display: none;
+}
+
+.col-sm-10.col-xs-10.fullscreen{
+  order: 1;
+  background-color: #888C8f!important;
+  height: 7.85em;
+  top: 3.5px;
+}
+
+.col-sm-2.col-xs-2.fullscreen{
+  order: 2;
+}
+
+.wavelogo{
+  right: 0;
+  height: 9.25em;
+  bottom: -0.5em;
+}
+
+.uppercurve{
+  height: 8.05em;
+  top: 3px;
+  left: -7.5em;
+  transform: scale(-1);
+}
+
+.curve-down{
+  transform: scale(-1);
+  height: 6.9em;
+  bottom: 0.5px;
+  right: -7.5em;
+  float: right;
+  z-index: 1030;
+  margin-top: 0;
+}
+
+.print-footer{
+  background-color: #888C8f!important;
+  height: 6.85em;
+}
+
+.action-menu {
+  display: none;
+}
+
+.preface {
+  display: none;
+}
+
+.wavelower {
+  display: none;
+}
+
+.alert {
+  display: none;
+}
+
+.breadcrumb-wrap {
+  display: none;
+}
+
+.nav-tabs {
+  display: none;
+}
+
+#hoyre-kol h1 {
+  display: none;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd){
+  background-color: #f9f9f9;
+}
+
+.col-sm-10.col-sm-offset-1.col-lg-8.col-lg-offset-2 {
+  width: 100%;
+  margin-left: 0;
+}
+
+#main-content {
+  left: 16.666667%;
+  width: 66.666667%
+}
+
+aside {
+  display: none;
+}
+
+#block-views-contact-form-block-2 {
+  display: none;
+}
+
+.region-postscript-mid {
+  display: none;
+}
+
+.view-footer-location {
+  margin-top: 0.2cm;
+}
+
+.footer-background {
+  background: transparent;
+}
+
+.print-menu {
+  display: none;
+}
+
+.hide-print-media {
+  display: none;
+}
+
+.print-media {
+  display: block;
+}
+
+.row-deep{
+ padding: 0;
+}
+
+.node-type-media #block-views-opening-hours-block {
+  display: block;
+  border: none;
+  box-shadow: none;
+}
+
+@page {
+  margin:2cm 2cm 1.25cm 2cm;
+  size: A4;
+  size: portrait;
+}
+
+body {
+  font: 11pt Arial;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #535354;
+}
+
+h1 {
+  font: 16pt Arial;
+  color: #dd1e25;
+}
+
+h2 {
+  font: 14.5 Arial;
+  color: #002A5B;
+}

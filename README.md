@@ -1,1 +1,1 @@
-# internationalredirect
+# redirect
