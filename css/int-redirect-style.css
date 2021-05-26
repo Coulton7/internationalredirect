@@ -6,6 +6,10 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   margin-top: 4.3em;
 }
 
+ul.action-links{
+  display: none;
+}
+
 .flexslider {
   margin: 0 !important;
   background: none !important;
