@@ -48,7 +48,8 @@ ul.action-links{
 .page-header {
   border-bottom: none;
   margin: 0;
-  padding: 0 color: #ffffff;
+  padding: 0;
+  color: #ffffff;
 }
 
 .breadcrumb-sitemap {
