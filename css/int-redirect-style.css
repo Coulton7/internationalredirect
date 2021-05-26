@@ -839,33 +839,49 @@ height: 3.8em;
 
 /*Fontawesome Google logo*/
 @media screen and (max-width: 767px) {
-  .maintenance-page .flex-header{
+  .maintenance-page .flex-header {
     font-size: 25px;
     line-height: 40px;
   }
 
-  .maintenance-page .flex-caption{
+  .maintenance-page .flex-caption {
     font-size: 22px;
     line-height: 36px;
+  }
+
+  .tour-header {
+    font-size: 2.4em;
+    line-height: 40px
+  }
+
+  .flex-header {
+    top: 0;
+    text-align: left;
+    display: block;
+  }
+
+  .breadcrumb>li:last-child {
+    max-width: 87%;
+  }
+
+  .basic_page .flexslider .slides li img {
+    margin-top: -8%;
+    margin-bottom: -8%;
   }
 
   .front__flex-margin {
     margin-top: 0;
   }
 
-  .flex_gradient {
-    overflow: hidden;
-  }
-
   .action-menu {
     top: 3.3em
   }
 
-  .lang-switch a{
+  .lang-switch a {
     margin-right: 3em;
   }
 
-  .locale-untranslated{
+  .locale-untranslated {
     color: #888c8f;
   }
 
@@ -889,33 +905,28 @@ height: 3.8em;
     padding-right: 0.8em;
   }
 
-  /*padding bewteen the icons*/
   .map-icon ul li:nth-child(2) a:after {
     padding-right: 0.8em;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(1) a:after {
     margin-right: 0.4em;
     font-size: 3em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(2) a:after {
     margin-right: 0.4em;
     font-size: 3em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(3) a:after {
     margin-right: 0.4em;
     font-size: 3em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .socialmedia ul li:nth-child(4) a:after {
     margin-right: 0.4em;
     font-size: 3em;
@@ -929,7 +940,6 @@ height: 3.8em;
     z-index: 4;
   }
 
-  /*padding bewteen the icons*/
   .africa-upper {
     top: 48.5%;
   }
@@ -958,16 +968,66 @@ height: 3.8em;
   .row.bannerimage {
     overflow: hidden;
   }
-  .iceberg-mapsea{
+
+  .iceberg-mapsea {
     margin-top: -10.75em;
   }
 
-  .maintenance-page .flex-header{
+  .maintenance-page .flex-header {
     display: block;
   }
 
-  .maintenance-page .flex-caption{
+  .maintenance-page .flex-caption {
     display: block;
+  }
+
+  .tour-caption {
+    bottom: 10%;
+  }
+
+  .field-industry {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+
+  .api-plans-ref {
+    margin-top: 2em;
+    overflow-x: hidden;
+  }
+
+  .us-team-photo {
+    padding-top: 3.1%;
+    padding-bottom: 43%;
+  }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 21.1%;
+    padding-bottom: 21%;
+  }
+
+  .footer-social-icons{
+    display: flex;
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  .footer-social-icons a:nth-child(1){
+    padding-left: 0;
+  }
+
+  .grey-lower-wave {
+    transform: skewX(21deg);
+  }
+
+  .grey-upper-wave {
+    transform: skewX(21deg);
+  }
+
+  .ind-flex-item-caption {
+    top: 0;
+    width: 83.333%;
+    left: 8.333%;
   }
 }
 
@@ -976,29 +1036,41 @@ height: 3.8em;
   /*Apply to flex-gradient for international sites but for the home/frontpage
   use the class .front .front_flex-margin*/
   .front__flex-margin {
-    transform: scale(1.5);
-    transform-origin: top;
-    margin-bottom: 16%;
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    transform-origin: none;
+    margin-bottom: 0;
   }
 
   .action-menu {
     top: 3.3em;
     position: absolute;
     z-index: 103;
+  }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 21.1%;
+    padding-bottom: 21%;
   }
 }
 
 @media screen and (max-width:500px) {
   .front__flex-margin {
-    transform: scale(2);
-    transform-origin: top;
-    margin-bottom: 30%;
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    transform-origin: none;
+    margin-bottom: 0;
   }
 
   .maintenance-page .front__flex-margin {
-    transform: scale(1.5);
-    transform-origin: top;
-    margin-bottom: 16%;
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    transform-origin: none;
+    margin-bottom: 0;
   }
 
   .action-menu {
@@ -1006,25 +1078,63 @@ height: 3.8em;
     position: absolute;
     z-index: 103;
   }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 48.1%;
+    padding-bottom: 59%;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .maintenance-page .flex-header{
+  .maintenance-page .flex-header {
     font-size: 26px;
     line-height: 42px;
   }
 
-  .maintenance-page .flex-caption{
+  .maintenance-page .flex-caption {
     font-size: 23px;
     line-height: 37px;
+  }
+
+  .tour-header {
+    font-size: 2.6em;
+    line-height: 42px
+  }
+
+  .basic_page .flexslider .slides li img {
+    margin-top: -6%;
+    margin-bottom: -6%;
   }
 
   .action-menu {
     top: 3.45em
   }
 
-  .lang-switch a{
+  .lang-switch a {
     margin-right: 0;
+  }
+
+  .flex-header {
+    top: 0.2em;
+    text-align: left;
+    display: block;
+  }
+
+  .breadcrumb>li:last-child {
+    max-width: 87%;
+  }
+
+  .flex-header h1 {
+    font-size: 3em;
+    line-height: 52px;
+  }
+
+  .flex-caption {
+    font-size: 1em;
+    line-height: 26px;
+    top: 0em;
+    display: block;
   }
 
   .flex_gradient {
@@ -1039,7 +1149,11 @@ height: 3.8em;
     margin-top: 1em;
   }
 
-  .iceberg-mapsea{
+  .search-block .form-item {
+    width: 71%;
+  }
+
+  .iceberg-mapsea {
     margin-top: -7.5em;
   }
 
@@ -1132,19 +1246,77 @@ height: 3.8em;
     width: 83.33333333%;
   }
 
-  .maintenance-page .flex-header{
+  .maintenance-page .flex-header {
     display: block;
   }
 
-  .maintenance-page .flex-caption{
+  .maintenance-page .flex-caption {
     display: block;
+  }
+
+  .tour-caption {
+    bottom: 29%;
+  }
+
+  .large-cta-block {
+    margin-top: -1.5em;
+  }
+
+  .field-industry {
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+  }
+
+  .api-plans-ref {
+    margin-top: 2em;
+  }
+
+  .us-team-photo {
+    padding-top: 3.1%;
+    padding-bottom: 43%;
+  }
+
+  .graphic-slider-img {
+    max-width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .footer-social-icons{
+    align-self: center;
+  }
+
+  .footer-social-icons a:nth-child(1){
+    padding-left: 0.5em;
+  }
+
+  .grey-lower-wave {
+    transform: skewX(40deg);
+  }
+
+  .grey-upper-wave {
+    transform: skewX(40deg);
+  }
+
+  .ind-flex-item-caption {
+    top: 5%;
+    width: 83.333%;
+    left: 8.333%;
   }
 }
 
 @media screen and (min-width: 992px) {
+  .flex-gradient {
+    padding-top: 7em;
+  }
 
   .maintenance-page .flex-header {
     font-size: 2.8em;
+    line-height: 58px;
+  }
+
+  .tour-header {
+    font-size: 3em;
     line-height: 58px;
   }
 
@@ -1153,13 +1325,39 @@ height: 3.8em;
     line-height: 36px;
   }
 
-  .maintenance-page .flex-caption{
+  .maintenance-page .flex-caption {
     font-size: 24px;
     line-height: 39px;
   }
 
+  .breadcrumb>li:last-child {
+    max-width: 87%;
+  }
+
+  .flex-header {
+    top: 0.2em;
+    text-align: left;
+  }
+
+  .flex-header h1 {
+    font-size: 1.1em;
+    line-height: 58px;
+  }
+
+  .basic_page .flexslider .slides li img {
+    max-width: 95%;
+    margin-top: -7%;
+    margin-bottom: -7%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .action-menu {
     top: 3.4em
+  }
+
+  .search-block .form-item {
+    width: 72%;
   }
 
   .banner-subtitle {
@@ -1249,28 +1447,73 @@ height: 3.8em;
     top: 47%;
   }
 
-  .maintenance-page .flex-header{
+  .maintenance-page .flex-header {
     display: block;
   }
 
-  .maintenance-page .flex-caption{
+  .maintenance-page .flex-caption {
     display: block;
   }
 
-  .maintenance-page .caption-container{
+  .maintenance-page .caption-container {
     top: 0;
     width: 56%;
   }
 
   .front .caption-container {
-    top: 0;
-    width: 56%;
-    }
+    top: 23%;
+  }
+
+  .large-cta-block {
+    margin-top: -3.5em;
+  }
+
+  .us-team-photo {
+    padding-top: 6.1%;
+    padding-bottom: 40%;
+  }
+
+  .graphic-slider-img {
+    max-width: 90%;
+  }
+
+  .footer-social-icons{
+    align-self: center;
+  }
+
+  .ind-flex-item-caption {
+    width: 66.6667%;
+    left: 16.6667%;
+    top: 5%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .flex-gradient {
+    padding-top: 6em;
+  }
+
+  .flex-header h1 {
+    font-size: 1.1em;
+    line-height: 63px;
+  }
+
+  .flex-caption {
+    font-size: 1em;
+    line-height: 36px;
+    top: 0;
+  }
+
+  .breadcrumb>li:last-child {
+    max-width: 100%;
+  }
+
   .action-menu {
     top: 3em;
+  }
+
+  .search-block .form-item {
+    width: 73%;
   }
 
   .banner-subtitle {
@@ -1278,18 +1521,17 @@ height: 3.8em;
   }
 
   .front .caption-container {
-    top: 0;
-    width: 56%;
+    top: 28%;
   }
 
-  .maintenance-page .caption-container{
+  .maintenance-page .caption-container {
     top: 0;
     width: 56%;
   }
 
   .maintenance-page .flex-header {
-  font-size: 2.8em;
-  line-height: 58px;
+    font-size: 2.8em;
+    line-height: 58px;
   }
 
   .maintenance-page .flex-caption {
@@ -1297,8 +1539,76 @@ height: 3.8em;
     line-height: 36px;
   }
 
+  .basic_page .flexslider .slides li img {
+    max-width: 95%;
+    margin-top: -8%;
+    margin-bottom: -8%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .location-branches .scrtabs-tab-container {
     margin-left: 16.666667%;
     width: 66.66666667%;
+  }
+
+  .large-cta-block {
+    margin-top: -4.5em;
+  }
+
+  .us-team-photo {
+    padding-top: 8.1%;
+    padding-bottom: 38%;
+  }
+
+  .graphic-slider-img {
+    max-width: 75%;
+  }
+
+  .footer-social-icons{
+    align-self: center;
+  }
+  .ind-flex-item-caption {
+    top: 15%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .basic_page .flexslider .slides li img {
+    max-width: 95%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .large-cta-block {
+    margin-top: -5.5em;
+  }
+
+  .us-team-photo {
+    padding-top: 10.1%;
+    padding-bottom: 36%;
+  }
+
+  .graphic-slider-img{
+    max-width: 55%;
+  }
+
+  .footer-social-icons{
+    align-self: auto;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .basic_page.flexslider .slides li img {
+    max-width: 85%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .graphic-slider-img{
+    max-width: 50%;
   }
 }
