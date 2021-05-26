@@ -177,8 +177,11 @@
 			<div class="tablet-fix">
 				<section id="main-content" class="col-sm-12">
 					<div class="clearfix">
-						<?php if (!empty($tabs)): ?>
-						<?php print render($tabs); ?>
+						<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+							<?php if (!empty($tabs)): ?>
+								<?php print render($tabs); ?>
+							<?php endif; ?>
+						</div>
 					</div>
 					<?php print render($page['content']); ?>
 				</section>
