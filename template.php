@@ -19,6 +19,8 @@ function internationalredirect_js_alter(&$javascript){
 }
 
 function internationalredirect_css_alter(&$css){
+  $css['sites/all/themes/internationalredirect/bootstrap/css/bootstrap.min.css']['weight']=11;
+  $css['sites/all/themes/internationalredirect/bootstrap/css/bootstrap-theme.min.css']['weight']=12;
   $css['sites/all/themes/aesbs337/css/fonts-style.css']['weight']=13;
   $css['sites/all/themes/aesbs337/css/regions-style.css']['weight']=14;
   $css['sites/all/themes/aesbs337/css/block-style.css']['weight']=15;
